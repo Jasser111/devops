@@ -9,7 +9,6 @@ public interface IEnrollment {
     public Enrollment getEnrollmentById(Long idEnrollment);
     public Enrollment saveEnrollment(Enrollment enrollment);
     public void deleteEnrollment(Long idEnrollment);
-     public void deleteEn(Long idEnrollment);
 
 
 }
